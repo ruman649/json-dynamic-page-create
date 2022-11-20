@@ -1,0 +1,34 @@
+#msg_box{
+    background-color: rgb(241, 223, 199, 0.9);
+    padding: 15px 20px;
+    width: 30%;
+    border-radius: 5px;
+    /* display: flex; */
+    position: absolute;
+    left: calc(50% - 15%);
+    top: 10px;
+    display: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.err{
+    color: crimson;
+    font-size: large;
+    font-weight: 600;
+}
+.success{
+    color: rgb(9, 192, 9);
+    font-size: large;
+    font-weight: 600;
+}
+
+#close{
+    background-color: crimson;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
